@@ -19,11 +19,11 @@ body {
 
 .card {
   border: 2px solid;
-  border-color: lightgray;
+  border-color: var(--teal);
   border-radius: 4px;
   font-size: 1em;
   box-shadow: 10px 10px;
-  color: slategray;
+  color: var(--dark);
   padding: 10px;
   margin: 10px;
 }
