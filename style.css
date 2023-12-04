@@ -12,7 +12,7 @@
 
 body {
   background-color: var(--light);
-  font-family: 'Acme', sans-serif;;
+  font-family: "Acme", sans-serif;
   font-size: 1rem;
 }
 
@@ -40,6 +40,11 @@ img {
   width: 20vw;
 }
 
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 700px) and (max-width: 999px) {
   body {
     font-size: 1.5rem;
@@ -52,5 +57,13 @@ img {
   }
   .description {
     display: block;
+  }
+  .navbar-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .navbar-item {
+    padding: 10px;
+    margin: 10px;
   }
 }
