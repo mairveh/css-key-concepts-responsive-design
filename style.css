@@ -67,3 +67,15 @@ img {
     margin: 10px;
   }
 }
+
+.appearance {
+  background: var(--light);
+  color: var(--dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  .appearance.adaptive {
+    background: var(--dark);
+    color: var(--light);
+  }
+}
