@@ -11,7 +11,6 @@
 }
 
 body {
-  background-color: var(--light);
   font-family: "Acme", sans-serif;
   font-size: 1rem;
 }
@@ -27,7 +26,6 @@ body {
   border-color: var(--teal);
   border-radius: 4px;
   box-shadow: 2px 2px var(--teal);
-  color: var(--dark);
   padding: 10px;
   margin: 10px;
 }
